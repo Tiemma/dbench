@@ -10,7 +10,7 @@ spec:
   # storageClassName: ibmc-block-silver
   # storageClassName: ibmc-block-gold
   accessModes:
-    - ReadWriteOnce
+    - ReadWriteMany
   resources:
     requests:
       storage: 1000Gi
